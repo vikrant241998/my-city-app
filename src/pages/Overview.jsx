@@ -9,7 +9,7 @@ import interactive from "../assets/icons/interactive.png";
 import rewards from "../assets/icons/rewards.png";
 import mobile from "../assets/icons/mobile.png";
 import admin from "../assets/icons/admin.png";
-import Vector from "../assets/icons/Vector.png";
+import vector from "../assets/icons/vector.png";
 
 const Overview = () => {
   return (
@@ -21,7 +21,7 @@ const Overview = () => {
       </h4>
       <div className={styles.overviewWrapper}>
         <div className={styles.cornerBadge}>
-          <img src={Vector} alt="Vector" />
+          <img src={vector} alt="vector" />
         </div>
 
         <div className={styles.appContainer}>
