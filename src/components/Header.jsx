@@ -5,16 +5,15 @@ import header_Logo from "../assets/icons/header_Logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const location = useLocation(); // Get current path
+  const location = useLocation(); 
 
   const links = [
     { label: "Home", path: "/" },
-    { label: "App overview", path: "/overview" },
-    { label: "Audience", path: "/audience" },
-    { label: "Why Choose", path: "/why-choose-us" },
-    { label: "Pricing Tiers", path: "/pricing" },
-    { label: "Contact Us", path: "/contact-us" },
-    { label: "Footer", path: "/footer" },
+    { label: "App overview", path: "#" },
+    { label: "Audience", path: "#" },
+    { label: "Why Choose", path: "#" },
+    { label: "Pricing Tiers", path: "#" },
+    { label: "Contact Us", path: "#" },
   ];
 
   return (

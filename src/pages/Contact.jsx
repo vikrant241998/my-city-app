@@ -1,76 +1,73 @@
-import React from 'react'
+import React from "react";
+import styles from "../styles/Contact.module.css";
+
+import cityImg from "../assets/images/cityImg.png";
+import cityPersonImg from "../assets/images/cityPersonImg.png";
+import vector from "../assets/icons/vector.png";
+
+import message from "../assets/icons/message.png";
+import whatsApp from "../assets/icons/whatsApp.png";
 
 const Contact = () => {
   return (
-   <>
-   
-    <div className="why-choose-wrapper">
-        <div className="why-choose-card">
-          <div>Abcd</div>
-          <div>Interactive Exploration</div>
-          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <>
+      <div className={styles.contactContainer}>
+        <div className={styles.contactImgContainer}>
+          <img src={cityImg} alt="city" />
+          <div className={styles.contactVector}>
+          <img src={vector} alt="vector" />
+
+</div>
         </div>
+
+
+        <div className={styles.contactCityContainer}>
+          <h2>
+            Ready to Make Your <br /> City Interactive ?
+          </h2>
+
+          <div className={styles.contactCityWrapper}>
+            <div className={styles.contactCityLeft}>
+              <div className={styles.contactCityPara}>
+                <span>&#10003;</span> <p>Launch in 6-8 Weeks</p>
+              </div>
+              <div className={styles.contactCityPara}>
+                <span>&#10003;</span> <p>Built with German precision</p>
+              </div>
+              <div className={styles.contactCityPara}>
+                <span>&#10003;</span> <p>Loved by locals & tourists alike</p>
+              </div>
+
+              <br />
+
+              <div className={styles.contactCityIcon}>
+                <img src={message} alt="message" />
+                <p>hello@maverickmount.com</p>
+              </div>
+              <div className={styles.contactCityIcon}>
+                <img src={whatsApp} alt="whatsApp" />
+                <p>+1 419 405 7399</p>
+              </div>
+
+              <button className={styles.contactButton}>
+                Schedule Your Demo Today
+              </button>
+            </div>
+
+            <div className={styles.contactCityRight}>
+              <img src={cityPersonImg} alt="person" />
+              <div
+                className={`${styles.cornerBox} ${styles.bottomRight}`}
+              ></div>
+              <div
+                className={`${styles.cornerBoxTop} ${styles.topRight}`}
+              ></div>
+            </div>
+          </div>
         </div>
+      </div>
+    </>
+  );
+};
 
-
-{/* 
-.why-choose-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.3rem 12px;
-
-  justify-content: center;
-  filter: drop-shadow(0 1px 5px rgba(0, 0, 0, 0.1));
-  position: relative;
-}
-
-.why-choose-card {
-  cursor: pointer;
-  flex: 1 1 calc(25% - 1rem); 
-  max-width: calc(25% - 1rem);
-  height: 200px;
-  padding: 1.5rem;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  z-index: 0;
-  background-color: transparent;
-  transition: transform 0.2s;
-}
-
-.why-choose-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to right, #fd7f00, #381c00);
-  clip-path: polygon(0% 0%, 85% 0%, 100% 22%, 100% 100%, 0% 100%);
-  z-index: -2;
-  border-radius: 5px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.why-choose-card:hover::before {
-  opacity: 1;
-}
-
-.why-choose-card::after {
-  content: "";
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  right: 1px;
-  bottom: 1px;
-  background: #ffffff;
-  clip-path: polygon(0% 0%, 85% 0%, 100% 22%, 100% 100%, 0% 100%);
-  z-index: -1;
-  border-radius: 5px;
-} 
- 
- */}
-   </>
-  )
-}
-
-export default Contact
+export default Contact;

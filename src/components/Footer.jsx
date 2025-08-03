@@ -10,8 +10,7 @@ import mountIcon from "../assets/icons/mountIcon.png";
 
 const Footer = () => {
   return (
-    <>   
-    
+    <>       
       <div className={styles.footerContainer}>
       <div className={styles.footerMenuContainer}>
         <div className={styles.footerMenu}>

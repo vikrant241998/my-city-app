@@ -169,9 +169,9 @@
   top: -25px;
 }
 
-.audiCardIcon img{
-    width: 25px;
-    height: 25px;
+.audiCardIcon img {
+  width: 25px;
+  height: 25px;
 }
 .audiCardHeading {
   text-transform: capitalize;
@@ -206,7 +206,6 @@
     flex: 1 1 100%;
     max-width: 40%;
     padding: 5vw 3vh;
-    transform: none !important;
   }
 }
 
@@ -215,7 +214,6 @@
     flex: 1 1 100%;
     max-width: 80%;
     padding: 2.5rem 2rem;
-    transform: none !important;
   }
 
   .audiVector {
@@ -236,4 +234,14 @@
     width: 250px;
     height: 100px;
   }
+.audiCard:nth-child(1),
+.audiCard:nth-child(3) {
+  transform: translateY(0px);
 }
+.audiCard:nth-child(2),
+.audiCard:nth-child(4) {
+  transform: translateY(0px);
+}
+ 
+}
+  

@@ -1,0 +1,243 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+      padding: 5rem 1rem 8rem 1rem;
+}
+
+.contactImgContainer {
+  width: 400px;
+  position: relative;
+}
+
+.contactVector {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  bottom: -50px;
+  right: 25px;
+}
+.contactVector img {
+  width: 100%;
+  height: 100%;
+}
+
+.contactImgContainer img {
+  width: 100%;
+}
+
+.contactCityContainer h2 {
+  font-size: 45px;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  word-spacing: 5px;
+  padding-bottom: 1rem;
+}
+
+.contactCityWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 2rem;
+}
+
+.contactCityPara {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.contactCityPara span {
+  background-color: #fd7f00;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.contactCityIcon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.contactCityIcon img {
+  border: 1px solid #fd7f00;
+  width: 18px;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.contactButton {
+  background-color: #fd7f00;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.contactCityRight {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+
+.contactCityRight img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.cornerBox {
+  position: absolute;
+  width: 200px;
+  height: 270px;
+  background-color: #fd7f00;
+  z-index: -1;
+}
+
+.bottomRight {
+  bottom: -20px;
+  right: -20px;
+}
+
+.cornerBoxTop {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #fd7f00;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.topRight {
+  top: -45px;
+  right: -25px;
+}
+
+@media only screen and (max-width: 992px) {
+  .contactImgContainer {
+    width: 350px;
+  }
+
+  .contactCityContainer h2 {
+    font-size: 35px;
+  }
+
+  .contactCityPara {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .contactCityRight {
+    max-width: 235px;
+  }
+
+  .cornerBox {
+    width: 160px;
+    height: 200px;
+  }
+
+  .cornerBoxTop {
+    width: 50px;
+    height: 50px;
+  }
+
+  .topRight {
+    top: -35px;
+    right: -15px;
+  }
+
+  .contactButton {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .contactVector {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: -50px;
+    right: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .contactImgContainer {
+    width: 400px;
+  }
+
+  .contactCityContainer {
+    width: 100%;
+    max-width: 95%;
+  }
+
+  .contactCityContainer h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .contactVector {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    bottom: -10px;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .contactCityWrapper {
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-direction: column-reverse;
+  }
+
+  .contactCityContainer h2 {
+    margin-bottom: 2.5rem;
+    font-size: 30px;
+  }
+
+  .contactCityPara {
+    gap: 16px;
+    font-size: 16px;
+  }
+
+  .contactCityLeft {
+    text-align: center;
+  }
+
+  .contactImgContainer {
+    width: 301px;
+  }
+  
+  .contactVector{
+    display: none;
+  }
+}
