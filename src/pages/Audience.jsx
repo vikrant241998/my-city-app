@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/AudiSection.module.css";
 
 import audi_img from "../assets/images/audi_img.png";
-import vector from "../assets/icons/vector.png";
+import vectorIcon from "../assets/icons/vectorIcon.png";
 import tourism from "../assets/icons/tourism.png";
 import localBusiness from "../assets/icons/localBusiness.png";
 import tourist from "../assets/icons/tourist.png";
@@ -14,7 +14,7 @@ const Audience = () => {
     <>
        <div className={styles.audiCover}>
       <div className={styles.audiVector}>
-        <img src={vector} alt="vector" />
+        <img src={vectorIcon} alt="vectorIcon" />
       </div>
 
       <div className={styles.audiContainer}>

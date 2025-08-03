@@ -3,8 +3,7 @@ import styles from "../styles/Contact.module.css";
 
 import cityImg from "../assets/images/cityImg.png";
 import cityPersonImg from "../assets/images/cityPersonImg.png";
-import vector from "../assets/icons/vector.png";
-
+import vectorIcon from "../assets/icons/vectorIcon.png";
 import message from "../assets/icons/message.png";
 import whatsApp from "../assets/icons/whatsApp.png";
 
@@ -15,7 +14,7 @@ const Contact = () => {
         <div className={styles.contactImgContainer}>
           <img src={cityImg} alt="city" />
           <div className={styles.contactVector}>
-          <img src={vector} alt="vector" />
+          <img src={vectorIcon} alt="vectorIcon" />
 
 </div>
         </div>

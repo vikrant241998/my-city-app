@@ -5,7 +5,7 @@ import homeImg from "../assets/images/homeImg.png";
 import myCityAppImg from "../assets/images/myCityAppImg.png";
 import homePlace from "../assets/images/homePlace.png";
 import SleepingImg from "../assets/images/SleepingImg.png";
-import vector from "../assets/icons/vector.png";
+import vectorIcon from "../assets/icons/vectorIcon.png";
 
 import Header from "../components/Header";
 import WhyChoose from "../pages/WhyChoose";
@@ -73,7 +73,7 @@ const Home = () => {
   </div>
 
   <div className={styles.homeVectorImg}>
-    <img src={vector} alt="vector" />
+    <img src={vectorIcon} alt="vectorIcon" />
   </div>
 </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Pricing.module.css";
-import vector from "../assets/icons/vector.png"
+import vectorIcon from "../assets/icons/vectorIcon.png";
 
 const Pricing = () => {
   return (
@@ -14,7 +14,7 @@ const Pricing = () => {
         </h4>
 
         <div className={styles.tierWrapper}>
-                <div className={styles.floatingBox}> <img src={vector} alt="vector" /> </div>
+                <div className={styles.floatingBox}> <img src={vectorIcon} alt="vectorIcon" /> </div>
 
           {/* Starter Card */}
           <div className={styles.tireCard}>
