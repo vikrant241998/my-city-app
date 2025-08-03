@@ -7,7 +7,7 @@ import businessEngagement from "../assets/icons/businessEngagement.png";
 import eventCalendar from "../assets/icons/eventCalendar.png";
 import gamification from "../assets/icons/gamification.png";
 import multiSupport from "../assets/icons/multiSupport.png";
-import Offline from "../assets/icons/Offline.png";
+import offline from "../assets/icons/offline.png";
 
 const cardData = [
   {
@@ -41,7 +41,7 @@ const cardData = [
     desc: "Ideal for tourists and locals alike (DE/EN).",
   },
   {
-    icon: Offline,
+    icon: offline,
     title: "Offline Functionality",
     desc: "Designed for reliable use on the go.",
   },
