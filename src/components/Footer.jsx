@@ -10,50 +10,7 @@ import mountIcon from "../assets/icons/mountIcon.png";
 
 const Footer = () => {
   return (
-    <>
-
-{/* <div className="footer-container">
-    <div className="footer-menu-container">
-<div className="footer-menu">
-    <ul>
-        <li> <a href="#">Home</a></li>
-        <li> <a href="#">App overview</a></li>
-        <li> <a href="#">Audience</a></li>
-        <li> <a href="#">Why Choose</a></li>
-        <li> <a href="#">Pricing Tiers</a></li>
-        <li> <a href="#">Contact Us</a></li>
-    </ul>
-</div>
-
-<div className="footer-social-icon">
-    <div className="footer-icon"><a href="#"> <img src={facebook} alt="facebook" /></a></div>
-    <div className="footer-icon"><a href="#"> <img src={linkedin} alt="linkedin" /></a></div>
-    <div className="footer-icon"><a href="#"> <img src={instagram} alt="instagram" /></a></div>
-</div>
-    </div>
-
-     <div className="footer-techno-container">
-        <div className="footer-left-container">
-            <div className="footer-left-img"> <img src={mountIcon} alt="mountIcon" /> </div>
-            <h1>New Delhi,India</h1>
-        </div>
-
-        <div className="footer-mid-container"> <img src={plusIcon} alt="plusIcon" /> </div>
-        
-        <div className="footer-left-container">
-            <div className="footer-left-img"> <img src={nekIcon} alt="nekIcon" /> </div>
-        </div>
-    </div>
-
-    <div className="footer-line"></div>
-
-    <div className="footer-bottom-container">
-        <p>@2025 Maverick Mount Technologies All Rights Reserved.</p>
-        <p>Privacy Policy | Terms Of Service</p>
-    </div>
-    </div> 
-     */}
-    
+    <>   
     
       <div className={styles.footerContainer}>
       <div className={styles.footerMenuContainer}>
