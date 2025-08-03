@@ -10,6 +10,7 @@ import Audience from "./pages/Audience";
 import WhyChoose from "./pages/WhyChoose";
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/why-choose-us" element={<WhyChoose />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact-us" element={<Contact />} />
+        <Route path="/footer" element={<Footer />} />
       </Routes>
     </Router>
 

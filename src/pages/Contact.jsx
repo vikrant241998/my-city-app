@@ -66,7 +66,9 @@ const Contact = () => {
   clip-path: polygon(0% 0%, 85% 0%, 100% 22%, 100% 100%, 0% 100%);
   z-index: -1;
   border-radius: 5px;
-} */}
+} 
+ 
+ */}
    </>
   )
 }

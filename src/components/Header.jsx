@@ -14,6 +14,7 @@ const Header = () => {
     { label: "Why Choose", path: "/why-choose-us" },
     { label: "Pricing Tiers", path: "/pricing" },
     { label: "Contact Us", path: "/contact-us" },
+    { label: "Footer", path: "/footer" },
   ];
 
   return (

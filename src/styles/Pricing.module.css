@@ -1,0 +1,182 @@
+.tireHandler {
+  background-color: #f5f5f5;
+  padding: 2rem 1rem;
+}
+
+.tierContainer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.tierContainer h5 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.tierContainer h4 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.tierContainer h4 span {
+  color: #fd7f00;
+  font-weight: 600;
+}
+
+.tierWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  position: relative;
+}
+
+.floatingBox {
+position: absolute;
+    bottom: -100px;
+    right: 23%;
+    width: 70px;
+    height: 70px;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.floatingBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tireCard {
+  flex: 1 1 260px;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  max-width: 280px;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tireCard:hover {
+  background-color: #fd7f00;
+  color: white;
+  box-shadow: 0 0px 0px rgba(255, 102, 0, 0.5), 0 10px 12px -3px #fd7f00;
+  transform: scale(1.05);
+}
+
+.tireCard:hover .tireButton {
+  background-color: white;
+  color: #fd7f00;
+}
+
+.tireCard:hover .tierPrice {
+  color: white;
+}
+
+.tireCard:hover .tireListPara {
+  color: white;
+}
+
+.tireCard:hover .tireList span {
+  background-color: #ff6a00;
+  color: white;
+}
+
+.tireCardHeading {
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.tireListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tireList {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.tireList span {
+  background-color: #5243c226;
+  width: 13px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 8px;
+  color: #bb6bd9;
+  font-weight: 600;
+}
+
+.tireListPara {
+  font-family: "Inter", sans-serif;
+  color: #848199;
+  font-size: 12px;
+}
+
+.tierPrice {
+  font-family: "Poppins-Bold", sans-serif;
+  color: #000000;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.tireButton {
+  background-color: #fd7f00;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 50px;
+  cursor: pointer;
+  border: none;
+}
+
+@media (max-width: 992px) {
+  .tireCard {
+    min-width: 218px;
+    max-width: 218px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tireCard {
+    min-width: 260px;
+    max-width: 340px;
+  }
+  
+  .tireButton {
+    text-align: center;
+  }
+
+  .floatingBox {
+    width: 60px;
+    height: 60px;
+}
+}
+
+@media (max-width: 550px) {
+  .floatingBox {
+    display: none;
+  }
+}
