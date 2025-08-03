@@ -5,7 +5,7 @@ import interactiveExploration from "../assets/icons/interactiveExploration.png";
 import cultural from "../assets/icons/cultural.png";
 import businessEngagement from "../assets/icons/businessEngagement.png";
 import eventCalendar from "../assets/icons/eventCalendar.png";
-import Gamification from "../assets/icons/Gamification.png";
+import gamification from "../assets/icons/gamification.png";
 import multiSupport from "../assets/icons/multiSupport.png";
 import Offline from "../assets/icons/Offline.png";
 
@@ -31,8 +31,8 @@ const cardData = [
     desc: "Promote public events and allow RSVPs.",
   },
   {
-    icon: Gamification,
-    title: "Gamification",
+    icon: gamification,
+    title: "gamification",
     desc: "Points, check-ins, quizzes, and photo challenges.",
   },
   {
