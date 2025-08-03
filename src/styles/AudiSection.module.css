@@ -212,7 +212,7 @@
 @media (max-width: 650px) {
   .audiCard {
     flex: 1 1 100%;
-    max-width: 80%;
+    max-width: 85%;
     padding: 2.5rem 2rem;
   }
 
@@ -234,14 +234,15 @@
     width: 250px;
     height: 100px;
   }
-.audiCard:nth-child(1),
-.audiCard:nth-child(3) {
-  transform: translateY(0px);
+  .audiCard:nth-child(1),
+  .audiCard:nth-child(3) {
+    transform: translateY(0px);
+  }
+  .audiCard:nth-child(2),
+  .audiCard:nth-child(4) {
+    transform: translateY(0px);
+  }
+  .audiContainer h4 {
+    margin-bottom: 2rem;
+  }
 }
-.audiCard:nth-child(2),
-.audiCard:nth-child(4) {
-  transform: translateY(0px);
-}
- 
-}
-  

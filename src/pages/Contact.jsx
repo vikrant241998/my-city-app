@@ -14,11 +14,9 @@ const Contact = () => {
         <div className={styles.contactImgContainer}>
           <img src={cityImg} alt="city" />
           <div className={styles.contactVector}>
-          <img src={vectorIcon} alt="vectorIcon" />
-
-</div>
+            <img src={vectorIcon} alt="vectorIcon" />
+          </div>
         </div>
-
 
         <div className={styles.contactCityContainer}>
           <h2>

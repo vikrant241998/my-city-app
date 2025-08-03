@@ -39,13 +39,13 @@
 }
 
 .floatingBox {
-position: absolute;
-    bottom: -100px;
-    right: 23%;
-    width: 70px;
-    height: 70px;
-    z-index: 10;
-    border-radius: 50%;
+  position: absolute;
+  bottom: -100px;
+  right: 23%;
+  width: 70px;
+  height: 70px;
+  z-index: 10;
+  border-radius: 50%;
 }
 
 .floatingBox img {
@@ -164,7 +164,7 @@ position: absolute;
     min-width: 260px;
     max-width: 340px;
   }
-  
+
   .tireButton {
     text-align: center;
   }
@@ -172,7 +172,7 @@ position: absolute;
   .floatingBox {
     width: 60px;
     height: 60px;
-}
+  }
 }
 
 @media (max-width: 550px) {

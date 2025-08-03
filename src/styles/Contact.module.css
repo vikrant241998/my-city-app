@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
-      padding: 5rem 1rem 8rem 1rem;
+  padding: 5rem 1rem 8rem 1rem;
 }
 
 .contactImgContainer {
@@ -186,6 +186,7 @@
 @media only screen and (max-width: 768px) {
   .contactContainer {
     flex-direction: column;
+    padding: 5rem 1rem 5rem 1rem;
   }
 
   .contactImgContainer {
@@ -236,8 +237,11 @@
   .contactImgContainer {
     width: 301px;
   }
-  
-  .contactVector{
+
+  .contactVector {
     display: none;
+  }
+  .contactContainer {
+    padding: 5rem 1rem 3rem 1rem;
   }
 }

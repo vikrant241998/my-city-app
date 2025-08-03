@@ -137,6 +137,7 @@
   .footerTechnoContainer {
     flex-direction: column;
     gap: 30px;
+    padding: 0rem 1rem 1rem 1rem;
   }
 
   .footerLeftContainer {
@@ -172,7 +173,7 @@
   }
 
   .footerLeftContainer {
-    width: 320px;
+    width: 300px;
   }
 
   .footerBottomContainer {

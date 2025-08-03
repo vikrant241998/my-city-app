@@ -50,25 +50,24 @@ const cardData = [
 const WhyChoose = () => {
   return (
     <>
-    <div className={styles["why-choose-container"]}>
-      <h5>Why Choose</h5>
-      <h4>
-        Welcome To <span>My City App</span>
-      </h4>
+      <div className={styles["why-choose-container"]}>
+        <h5>Why Choose</h5>
+        <h4>
+          Welcome To <span>My City App</span>
+        </h4>
 
-      <div className={styles["why-choose-wrapper"]}>
-        {cardData.map((card, index) => (
-          <div key={index} className={styles["why-choose-card"]}>
-            <div className={styles["choose-card-icon"]}>
-              <img src={card.icon} alt={card.title} />
+        <div className={styles["why-choose-wrapper"]}>
+          {cardData.map((card, index) => (
+            <div key={index} className={styles["why-choose-card"]}>
+              <div className={styles["choose-card-icon"]}>
+                <img src={card.icon} alt={card.title} />
+              </div>
+              <div className={styles["choose-card-heading"]}>{card.title}</div>
+              <div className={styles["choose-card-para"]}>{card.desc}</div>
             </div>
-            <div className={styles["choose-card-heading"]}>{card.title}</div>
-            <div className={styles["choose-card-para"]}>{card.desc}</div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
-
     </>
   );
 };

@@ -209,5 +209,10 @@
 @media only screen and (max-width: 550px) {
   .homeBannerButtonContainer {
     flex-direction: column;
+    gap: 1rem;
+  }
+
+  .homeBannerHeading {
+    font-size: 24px;
   }
 }

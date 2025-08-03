@@ -99,7 +99,8 @@
 }
 
 .why-choose-card:hover .choose-card-icon img {
-  filter: brightness(0) saturate(100%) invert(47%) sepia(97%) saturate(559%) hue-rotate(2deg) brightness(102%) contrast(105%);
+  filter: brightness(0) saturate(100%) invert(47%) sepia(97%) saturate(559%)
+    hue-rotate(2deg) brightness(102%) contrast(105%);
 }
 
 .why-choose-card:hover .choose-card-heading {
